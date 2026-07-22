@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/sabra.jpeg" alt="Sabra cactus" width="500">
+
 # 🇮🇱 Sourcing Sabra
 
 **Six Claude Code skills that turn a job description into a working sourcing pipeline.**
