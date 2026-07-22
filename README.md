@@ -1,8 +1,39 @@
-# Sourcing Sabra
+<div align="center">
 
-Six Claude Code skills that turn a job description into a working sourcing pipeline: market research, company research, boolean search strings, candidate screening, and outreach writing. Built and used daily by a recruitment sourcing team in Israel.
+# 🇮🇱 Sourcing Sabra
+
+**Six Claude Code skills that turn a job description into a working sourcing pipeline.**
+
+Built and used daily by a recruitment sourcing team in Israel.
+
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Built for Claude Code](https://img.shields.io/badge/built%20for-Claude%20Code-CC785C)](https://claude.com/claude-code)
+[![Skills](https://img.shields.io/badge/skills-6-brightgreen)](skills)
+[![Made in Israel](https://img.shields.io/badge/made%20in-Israel-0038b8)](#about-me)
+
+</div>
 
 Point Claude at a job description, get target companies, search strings, screening decisions, and outreach drafts back. No black box. Every skill is a plain markdown file you can read, change, and argue with.
+
+## How it flows
+
+```mermaid
+flowchart LR
+    JD([Job description]) --> MR[Market Researcher]
+    MR --> TS[Talent Sourcer]
+    MR -.optional.-> CS[Company Scout]
+    TS --> CR{Candidate Screener}
+    CS -.-> CR
+    CR -->|GO| OW[Outreach Writer]
+    CR -->|NO GO| Skip([Skip candidate])
+
+    style JD fill:#0038b8,color:#fff
+    style CR fill:#CC785C,color:#fff
+    style OW fill:#2e7d32,color:#fff
+    style Skip fill:#888,color:#fff
+```
+
+**Pipeline Strategist** runs this whole flow end to end for a new role. Use it standalone, or run each skill on its own when you only need one step.
 
 ## The skills
 
