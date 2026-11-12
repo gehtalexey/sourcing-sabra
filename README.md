@@ -4,13 +4,13 @@
 
 # 🇮🇱 Sourcing Sabra
 
-**Six Claude Code skills that turn a job description into a working sourcing pipeline.**
+**Seven skills that give your sourcing agent the judgment of an Israeli tech sourcer.**
 
 Based on the method a recruitment sourcing team in Israel uses every day.
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Built for Claude Code](https://img.shields.io/badge/built%20for-Claude%20Code-CC785C)](https://claude.com/claude-code)
-[![Skills](https://img.shields.io/badge/skills-6-brightgreen)](skills)
+[![Skills](https://img.shields.io/badge/skills-7-brightgreen)](skills)
 [![Made in Israel](https://img.shields.io/badge/made%20in-Israel-0038b8)](#about-me)
 
 </div>
@@ -47,10 +47,26 @@ flowchart LR
 | [`candidate-screener`](skills/candidate-screener/SKILL.md) | Screens a candidate profile against the role and returns a GO / NO GO with evidence, not a vibe |
 | [`outreach-writer`](skills/outreach-writer/SKILL.md) | Writes a subject line and a personal note from verified facts in the candidate's profile, never a guess |
 | [`pipeline-strategist`](skills/pipeline-strategist/SKILL.md) | Runs all five in sequence for a new role, start to finish |
+| [`israeli-tech-market`](skills/israeli-tech-market/SKILL.md) | What an agent can't guess about Israel: locations on profiles, army service, universities vs. colleges, R&D centers, acquisitions, Hebrew name spellings, outreach tone |
 
 Use them one at a time, or run `pipeline-strategist` for the full thing.
 
-## Install
+## Use them inside your agent
+
+These are plain instruction files in the open Agent Skills format (a folder with a `SKILL.md`). If you already run a sourcing agent, feed it these files and it screens, searches and writes like a sourcer who knows the Israeli market.
+
+| Where your agent runs | How to give it the skills |
+|---|---|
+| Claude Code or the Claude Agent SDK | Copy the folders into `~/.claude/skills/` (or the project's `.claude/skills/`). The agent loads the right skill by itself. |
+| Claude (web or desktop chat) | Zip one skill folder and upload it under the Skills settings. |
+| ChatGPT | Skills, then Create, then Upload from your computer. |
+| n8n, Make, or any LLM step | Put the `SKILL.md` text in the system prompt of the step that screens, or fetch it live from `https://raw.githubusercontent.com/gehtalexey/sourcing-sabra/main/skills/<skill-name>/SKILL.md` so your agent always gets the latest version. |
+
+A good pairing: `candidate-screener` + `israeli-tech-market` on the step that judges profiles, `outreach-writer` + `israeli-tech-market` on the step that writes the first message.
+
+Candidate profiles are personal data. Check your company's policy and your AI tool's data settings before you send profiles to any model.
+
+## Install (Claude Code)
 
 Copy the skill folders you want into your Claude Code skills directory:
 
@@ -90,7 +106,7 @@ I lead the technical sourcing team at Added Value, a recruitment agency for Isra
 
 I'm not a developer. Before tech I studied body psychotherapy and taught yoga. I got into building tools by describing what I want to Claude Code in plain English, not by writing code by hand.
 
-Most sourcing and outreach tools are built and priced for the US market, and they don't really fit how Israeli tech recruiting works day to day. My team builds a lot of what we actually use internally. These six skills are that method, cleaned up and shared.
+Most sourcing and outreach tools are built and priced for the US market, and they don't really fit how Israeli tech recruiting works day to day. My team builds a lot of what we actually use internally. These seven skills are that method, cleaned up and shared.
 
 [LinkedIn](https://www.linkedin.com/in/alexeygeht/)
 

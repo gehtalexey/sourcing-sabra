@@ -22,6 +22,8 @@ The other five skills each do one job well. This one decides when to run each of
 
 6. **Feedback loop** — after the hiring manager reviews the first candidates, write down every rejection reason as a screening rule, and every "yes, more like this one" as an anchor profile. Re-check earlier GOs against the new rules. Repeat after each review round. This is where the screening gets good; the first version is only a starting point.
 
+For any role in Israel, load **israeli-tech-market** next to every stage.
+
 ## Sequencing Rules
 
 - Don't skip ahead. Outreach without screening, or screening without proper market context, both produce worse decisions than doing the steps in order.

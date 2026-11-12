@@ -16,6 +16,8 @@ Requirements:
 
 # Screening Policy
 
+For a role in Israel, also load the **israeli-tech-market** skill and apply its army, education and employer rules first.
+
 ## Minimum Data Requirement — read this first
 
 **You need the full profile to screen someone. A title, a company name, and a couple of keywords are not enough.**
