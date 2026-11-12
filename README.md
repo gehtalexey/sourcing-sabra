@@ -28,8 +28,12 @@ flowchart LR
     CS -.-> CR
     CR -->|GO| OW[Outreach Writer]
     CR -->|NO GO| Skip([Skip candidate])
+    IL[[Israeli Tech Market]] -.Israel roles.-> TS
+    IL -.-> CR
+    IL -.-> OW
 
     style JD fill:#0038b8,color:#fff
+    style IL fill:#0038b8,color:#fff
     style CR fill:#CC785C,color:#fff
     style OW fill:#2e7d32,color:#fff
     style Skip fill:#888,color:#fff
@@ -109,8 +113,6 @@ I'm not a developer. Before tech I studied body psychotherapy and taught yoga. I
 Most sourcing and outreach tools are built and priced for the US market, and they don't really fit how Israeli tech recruiting works day to day. My team builds a lot of what we actually use internally. These seven skills are that method, cleaned up and shared.
 
 [LinkedIn](https://www.linkedin.com/in/alexeygeht/)
-
-*(add a photo here if you want one — drop it in the repo and reference it, e.g. `![Alexey](alexey.jpg)`)*
 
 ## License
 
