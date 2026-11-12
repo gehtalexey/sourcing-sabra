@@ -62,7 +62,7 @@ These are plain instruction files in the open Agent Skills format (a folder with
 | Where your agent runs | How to give it the skills |
 |---|---|
 | Claude Code or the Claude Agent SDK | Copy the folders into `~/.claude/skills/` (or the project's `.claude/skills/`). Claude Code loads the right skill by itself; in the Agent SDK, switch skills on in its settings first. |
-| Claude (web or desktop chat) | Turn on code execution, zip one skill folder, then Customize → Skills → + Create skill → Upload a skill. |
+| Claude (web or desktop chat) | Customize → Skills → + Add → Upload skill. Upload the `SKILL.md` file itself or a ZIP of the folder; several at once is fine. Claude then uses them by itself, together with your connectors (Drive, Sheets, Gmail). |
 | ChatGPT (Business, Enterprise and Edu workspaces, if the admin allows it) | Skills → Create → Upload from your computer. |
 | n8n, Make, or any LLM step | Paste the `SKILL.md` text into the system prompt of the step that screens (the safe default). Or fetch it from GitHub. Pin a version you have tested (a commit link, not `main`), so an update never changes your agent's decisions without you knowing. |
 
