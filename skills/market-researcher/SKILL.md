@@ -59,6 +59,13 @@ Write up, in a few paragraphs:
 - What percentage of the ideal candidate pool is likely actively looking vs. passive?
 - Any geographic considerations — remote, hybrid, relocation.
 
+## Before You Build a New List
+
+- **Start from the client's own list.** Ask the hiring manager which companies they would love to hire from. Those go first, above your Tier 1, and a candidate from one of them gets a pass on company background at screening.
+- **Reuse what you already have.** Earlier roles in the same domain already have company lists and company verdicts. Check them before researching from scratch.
+- **Ask what's off-limits.** The client's own customers, partners and investors' portfolio companies are often do-not-poach. Get that list in writing on day one.
+- **Re-check old "not relevant" verdicts.** A company you dismissed a year ago may have pivoted, raised a round or been acquired. A stale exclusion list silently hides good people.
+
 ## Output
 
 A short written brief, structured as:

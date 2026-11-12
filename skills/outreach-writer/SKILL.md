@@ -56,6 +56,24 @@ They must reference **different details**. If the subject line uses a career mov
 - "Reaching out because"
 - Any opener that could apply to literally anyone
 
+## React or Ask. Never Recite the CV.
+
+The most common failure: an opener that reads the person's resume back to them. "5 years at Wix building payments infrastructure is impressive" tells them nothing they don't know. A good opener does one of two things:
+- **Reacts** to something specific, the way a person who knows the field would ("Payments at Wix scale is its own sport.")
+- **Asks** a real question about it ("How did the move from Wix to a 30-person team feel?")
+
+**Banned shape:** "[X years] at [Company] doing [thing] ... is [judgment]". Rewrite any draft that fits it.
+
+**One question at most.** The email doesn't wait for the answer, so a second question just makes it longer.
+
+**Never negative about the candidate.** No "despite", no "even though your current role is narrow", no hint that their move was a step down or their career is unusual in a bad way. One word of judgment loses the reply.
+
+**The opener is the hook, not the introduction.** Who you are and what the role is go in the rest of the email. The opener is only about them.
+
+## Show Three Before You Write Fifty
+
+Before writing a whole batch, write 3 examples and show them to the person who will send them. Tone problems are cheap to fix at 3 and expensive at 50. Once a batch is written, read it as one list: if five openers share the same shape or the same first word, rewrite until they don't.
+
 ## Subject Line Examples
 
 Based on a company move: "Snyk to Wilco?" · "Vimeo to Ultima Genomics?" · "Google to Foretellix?"

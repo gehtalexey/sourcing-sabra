@@ -38,6 +38,14 @@ One line, binary, no hedging: `GO` or `NO GO`. Never punt the decision back to t
 
 Use only what's explicitly in the profile, plus any clearly-labeled company research. If something is missing or ambiguous, say so, lower your confidence, and decide conservatively. Never fabricate tenure, seniority, team size, scope, or impact just because it would make the story cleaner.
 
+## Calibrate on Real Profiles Before You Trust the Rules
+
+A screening policy written from the job description alone is a guess. Before you screen a batch, run the rules on 10-20 real profiles from your searches and read the results with the hiring manager's eyes. A verdict the hiring manager has not confirmed is a hypothesis, not calibration.
+
+**The "reject if X is not stated" trap.** Be suspicious of any rule shaped "NO GO if the profile doesn't mention X". First check what share of real profiles mention X at all. If only a few percent do (visa status, team size, a description under the current role), the rule is not a bar, it's an off switch: it rejects nearly everyone, including your best candidates. A rubric is finished when it has passed real people you would hire, not when it is written.
+
+**Turn the hiring manager's rejections into rules.** When the client turns someone down, ask why, write the reason as a rule, and re-check earlier GOs against it. The same pattern usually hides in several more profiles.
+
 ## Career Trajectory — check the whole arc, not just the current role
 
 A strong current role doesn't make up for a career that's mostly unrelated. Return `NO GO` when the candidate's history is mostly non-technical roles, an unrelated domain with no credible transferable depth, or doesn't form a coherent path leading to where they are now.
@@ -68,6 +76,22 @@ Normalize titles and technologies before judging fit (see reference tables below
 ## Startup / Environment Fit
 
 Positive: product companies, modern stack, real career progression, hands-on ownership, evidence of shipping. Negative: legacy tech, heavy services/outsourcing experience, stagnation, maintenance-only work with weak ownership. Don't use brand prestige as a shortcut — judge the actual environment. (Use the **Company Scout** skill when the company itself is the unclear part.)
+
+## Patterns That Fooled Us
+
+- **Long-term solo freelancer.** Years of "Freelance Developer" or a one-person consultancy, judged only on a skills list, is a NO GO unless the profile shows real clients, real products, and a team-scale environment.
+- **Israeli army service counts as half.** Unit 8200, Mamram and similar units are real experience, but count those years at half weight when checking years of experience. Don't drop them, and don't count them as full industry years.
+- **Company tenure vs. years of experience.** "8 years at Company X" can be a whole career path across several roles, or 8 flat years in one job. Read the roles under the company before you judge either way.
+- **8+ years at one employer with no visible change of scope** usually means the person is not moving, whatever the company size.
+- **A thin profile at a must-have company is not an automatic NO GO.** If the title is exactly right at exactly the right company, a short profile is a reason to look closer, not to reject.
+
+## The Caliber Check — the last step before any GO
+
+Box-ticking can pass a profile that no senior recruiter would call. Before you write GO, ask one question: **would I put my name on this introduction to the hiring manager?** If the honest answer is "technically they match", it's a NO GO.
+
+## A Second Pass on Every GO
+
+AI screeners lean lenient. They find reasons to say yes. When the cost of a bad outreach is real, run a second, stricter pass on every GO (a stronger model, or a fresh session told "find the reason this person is wrong for the role"). Keep the GO only if it survives. You don't need a second pass on NO GOs.
 
 ## Decision Standard
 

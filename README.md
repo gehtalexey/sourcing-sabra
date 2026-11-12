@@ -67,6 +67,17 @@ Then in Claude Code, invoke a skill directly:
 
 Each skill works on its own. You don't need the others installed for any single one to run.
 
+## What's new (November 2026)
+
+Four more months of running these skills on live searches, and what we learned the hard way:
+
+- **Search:** every round runs six angles (current title, past title, past employer, best companies with any title, keywords without the title, whole market). A market is not dry until all six have run.
+- **Titles:** specific 2-4 word phrases in every spelling, plus a noise test, instead of bare words like "Engineer".
+- **Screening:** calibrate on real profiles first, watch for "reject if X is not stated" rules that reject everyone, and run a stricter second pass on every GO.
+- **Outreach:** react or ask, never recite the CV; never negative; show 3 examples before writing 50.
+- **Companies:** start from the client's own list, identify companies by URL not by name.
+- **Feedback loop:** every hiring-manager rejection becomes a written rule.
+
 ## Why this exists
 
 Most of what a good sourcer does is judgment, not tooling: which companies actually have the right talent, whether a profile is real seniority or an inflated title, what to say in an opening line that isn't recruiter noise. These skills write that judgment down as instructions an AI can follow consistently, instead of it living only in one recruiter's head.

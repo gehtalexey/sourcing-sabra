@@ -45,6 +45,10 @@ Negative signals:
 
 Don't use brand prestige as a shortcut. A well-known name doesn't tell you whether the specific team or role has real ownership. Judge the actual environment.
 
+## Identify the Company by URL, Never by Name
+
+Company names collide. "Via" can be a transit-tech startup or a Turkish logistics firm; a data tool can match a company called "Via Transport" with full confidence. Always identify a company by its LinkedIn company page or its website domain. If all you have is a name, say the match is unconfirmed. When a lookup returns no result, treat it as "not found", never as "fine".
+
 ## Rules
 
 - Separate facts from interpretation. "They raised a Series B in [year]" is a fact. "This means the team is probably scaling fast" is an interpretation — label it as one.

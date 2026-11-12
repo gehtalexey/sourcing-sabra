@@ -74,6 +74,39 @@ Use real boolean syntax — AND, OR, NOT, parentheses, "exact phrases" — and k
 
 Each string should come with the filters that go with it: title, location, industry, seniority band, company size band, and any keyword filters. Which filters exist and how they're named will depend on the specific tool you're using (Sales Navigator, an ATS's built-in search, a sourcing platform) — map the categories above onto whatever your tool actually offers.
 
+## Write Title Phrases That Catch Everyone and Nothing Else
+
+Most search tools match titles by "contains". Use that, don't fight it.
+
+- **Never use a bare generic word** like "Engineer", "Developer", "Manager", "Lead" or "Analyst" as a title filter. "Engineer" catches Sales Engineer, Solutions Engineer and Field Engineer too.
+- **Use the tightest phrase that can only mean this role.** "Backend Engineer", "Full Stack", "Product Manager". With contains-matching, "Full Stack" also catches Senior Full Stack Developer, Full Stack Tech Lead and Full Stack Web Developer. You don't need to list seniority prefixes; they come free.
+- **List every spelling.** To the tool these are different words: Full Stack / Full-Stack / Fullstack, Back End / Back-End / Backend, Tech Lead / Technical Lead, Pre-Sales / Presales.
+- **Add house styles and abbreviations** when the role uses them: SWE, SDE, SRE, MLE, Member of Technical Staff.
+- **Run the noise test before you commit a phrase.** Ask: would a Sales Engineer, Account Manager, Graphic Designer, Data Scientist or Recruiter pass this? If yes, the phrase is too bare. A tighter phrase is the fix; a NOT list is only a patch.
+
+## Keywords Go Across Every Text Field, Not the Title
+
+A keyword search on the title alone returns noise and misses the best people. Spread each keyword across the headline, the summary, the skills list, and the current AND past role descriptions. Many strong people have a plain title ("Software Engineer", "Architect") and the real signal sits in what they wrote about their work.
+
+## Every Search Round Runs Six Angles
+
+The tiers above say how tight a search is. The angles below say *where* you look. A round that only runs one angle sees one slice of the market. Run all six, or write down why you skipped one:
+
+1. **Current title.** A strong title in the current role, at the target companies (the companies the client named first, then your tiered list).
+2. **Past title.** A strong title in a *past* role, whatever the current title is. This finds people who moved to a plain title.
+3. **Past employer.** Worked at a target company before, now anywhere. This finds alumni who moved on.
+4. **Best companies, any title.** Only the strongest companies, any relevant title, no keyword. This finds people whose profile has neither the exact title nor the keywords. Keep it small and let screening decide.
+5. **Keywords without the title.** Strong keywords across all text fields, with a broad title.
+6. **Whole market.** Strong titles, no company list. Run it last and keep it small.
+
+**Never call a market "dry" or "used up" until all six angles have run.** One empty angle says that angle is empty, nothing more. An angle that gives zero new people two rounds in a row may be skipped next round, with that as the written reason.
+
+**Exclude the people you already saw.** Most tools return the same top results every time unless you exclude profiles you already reviewed. Keep a list and pass it on every search.
+
+## Role-Specific Rules Stay With the Role
+
+A precision rule that suits one role (for example "must have a hands-on engineering background") must be switched on for that role only, never made the default for every search. A forgotten switch should cost you some precision, never silently return zero candidates for every other role.
+
 ## What Makes This Work
 
 - Don't rely on titles alone. The best candidate for a role sometimes has a title that would never surface in a naive search.
