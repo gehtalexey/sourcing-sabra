@@ -56,7 +56,9 @@ Write up, in a few paragraphs:
 - How hard is this hire, realistically? Easy, medium, hard, or very hard, and why.
 - What's the rough compensation range in this market for this profile? Don't hedge with "it depends" — give a real estimate.
 - Who else is competing for this same talent pool right now?
-- What percentage of the ideal candidate pool is likely actively looking vs. passive?
+- What percentage of the ideal candidate pool is likely actively looking vs. passive? If you have no source, say it is unknown.
+
+Label every number (salary, headcount, funding, active share) as an estimate unless you have a dated source. A person must check them before they reach a client.
 - Any geographic considerations — remote, hybrid, relocation.
 
 ## Before You Build a New List

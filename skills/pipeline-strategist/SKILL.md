@@ -30,6 +30,10 @@ The other five skills each do one job well. This one decides when to run each of
 - If results are thin, run all six search angles before calling the market dry. One empty search is not an empty market.
 - If Candidate Screener returns "insufficient data," go back and get the full profile before writing outreach. Never let Outreach Writer run on a thin profile.
 
+## No Profiles, No Screening
+
+These skills don't search LinkedIn or any database. After stage 3, stop and hand the search strings to the person. Continue to screening and outreach only when they paste real, full candidate profiles. Never invent candidates, sample profiles or example screening results.
+
 ## Output
 
 A single plan document with five sections, one per stage, each populated by that skill's actual output:

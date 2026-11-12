@@ -47,7 +47,7 @@ Don't use brand prestige as a shortcut. A well-known name doesn't tell you wheth
 
 ## Identify the Company by URL, Never by Name
 
-Company names collide. "Via" can be a transit-tech startup or a Turkish logistics firm; a data tool can match a company called "Via Transport" with full confidence. Always identify a company by its LinkedIn company page or its website domain. If all you have is a name, say the match is unconfirmed. When a lookup returns no result, treat it as "not found", never as "fine".
+Company names collide. We have seen a data tool match a well-known startup to an unrelated foreign company with an almost identical name, at full confidence. Always identify a company by its LinkedIn company page or its website domain. If all you have is a name, say the match is unconfirmed. When a lookup returns no result, treat it as "not found", never as "fine".
 
 ## Rules
 

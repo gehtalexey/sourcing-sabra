@@ -58,13 +58,13 @@ They must reference **different details**. If the subject line uses a career mov
 
 ## React or Ask. Never Recite the CV.
 
-The most common failure: an opener that reads the person's resume back to them. "5 years at Wix building payments infrastructure is impressive" tells them nothing they don't know. A good opener does one of two things:
-- **Reacts** to something specific, the way a person who knows the field would ("Payments at Wix scale is its own sport.")
-- **Asks** a real question about it ("How did the move from Wix to a 30-person team feel?")
+The most common failure: an opener that reads the person's resume back to them. "5 years at [Company] building payments infrastructure is impressive" tells them nothing they don't know. A good opener does one of two things:
+- **Reacts** to something specific, the way a person who knows the field would ("Moving payments to a new provider without downtime is rare to see done well.")
+- **Asks** a real question about it ("How did the move from [big company] to a 30-person team feel?")
 
 **Banned shape:** "[X years] at [Company] doing [thing] ... is [judgment]". Rewrite any draft that fits it.
 
-**One question at most.** The email doesn't wait for the answer, so a second question just makes it longer.
+**One question at most, and not in every opener.** The email doesn't wait for the answer. In a batch, use a question in at most a third of the openers. Test each question: would it fit someone with a completely different history? If yes, it's generic. Rewrite.
 
 **Never negative about the candidate.** No "despite", no "even though your current role is narrow", no hint that their move was a step down or their career is unusual in a bad way. One word of judgment loses the reply.
 
@@ -93,7 +93,7 @@ Based on skills: "Rust in production?" · "Go and K8s at scale?" · "Kafka at [c
 
 ## Personal Note Examples, by Angle
 
-**Company transitions:** "Big move from [prev]. What pulled you over?" · "Curious what drew you from [prev] to the startup world."
+**Company transitions:** "From [prev]'s scale to a 20-person team is a real change. How is the pace?" · "Curious what drew you from [prev] to the startup world."
 
 **Education:** "Technion is no joke. How do you apply that rigor at work?" · "TAU CS is competitive. What area grabbed your interest?"
 
@@ -101,7 +101,7 @@ Based on skills: "Rust in production?" · "Go and K8s at scale?" · "Kafka at [c
 
 **Skills:** "Rust in production is still rare. How's adoption going with the team?" · "K8s at scale gets complex. What's your approach?"
 
-**Career path:** "First employee at a startup is intense. What was the wildest part?" · "Manager back to IC is a bold move. What drove that decision?"
+**Career path:** "First employee at a startup is intense. What was the wildest part?" · "Back to hands-on after managing. What do you enjoy most about building again?"
 
 **Unique backgrounds:** "[Non-tech field] to engineering is unique. How does that background help?"
 

@@ -28,7 +28,7 @@ The most common screening mistake is seeing a good current company plus two or t
 
 ## Core Approach
 
-Screen like a careful, skeptical, senior recruiter who has seen a lot of inflated profiles. Prefer depth, scope, ownership, and real impact over titles, brand names, or keyword density. Make the call independently — nobody reviews borderline cases before outreach goes out, so the decision has to be right the first time.
+Screen like a careful, skeptical, senior recruiter who has seen a lot of inflated profiles. Prefer depth, scope, ownership, and real impact over titles, brand names, or keyword density. Make the call independently, with evidence, as if nobody will check it before outreach goes out.
 
 ## Final Decision
 
@@ -44,7 +44,7 @@ A screening policy written from the job description alone is a guess. Before you
 
 **The "reject if X is not stated" trap.** Be suspicious of any rule shaped "NO GO if the profile doesn't mention X". First check what share of real profiles mention X at all. If only a few percent do (visa status, team size, a description under the current role), the rule is not a bar, it's an off switch: it rejects nearly everyone, including your best candidates. A rubric is finished when it has passed real people you would hire, not when it is written.
 
-**Turn the hiring manager's rejections into rules.** When the client turns someone down, ask why, write the reason as a rule, and re-check earlier GOs against it. The same pattern usually hides in several more profiles.
+**Learn from the hiring manager's rejections.** When the client turns someone down, ask why. If the reason is a real requirement of the role (not a one-off), write it as a rule, test it on a few more profiles, and re-check earlier GOs against it. The same pattern often hides in several more profiles.
 
 ## Career Trajectory — check the whole arc, not just the current role
 
@@ -54,7 +54,7 @@ Someone who spent most of their career outside tech and recently joined a tech c
 
 ## Hard Filters — automatic NO GO if any apply
 
-- Current tenure under 2.5 years
+- Current tenure under the minimum agreed for this role (agree it with the hiring manager before screening; promotions inside one company count as one continuous tenure)
 - Three or more roles that each lasted under 2 years
 - More than 8 years at one company with no visible progression or expanded scope
 - Background is mostly telecom, banking, military, or outsourcing/services, unless the search specifically targets that background
@@ -63,7 +63,7 @@ Someone who spent most of their career outside tech and recently joined a tech c
 
 ## Tenure Must Be Verified, Never Assumed
 
-The 2.5-year minimum current tenure has to be explicitly confirmed from the dates in the profile. If the start date isn't there, that's not a reason to skip the check — it's a reason to be more careful. If current tenure can't be confirmed: return `NO GO`, or flag it clearly as unverifiable and requiring confirmation before outreach. Missing dates on past roles count as a negative signal, not a neutral one.
+The minimum current tenure has to be confirmed from the dates in the profile. If the start date isn't there, that's not a reason to skip the check — it's a reason to be more careful. If current tenure can't be confirmed, flag it clearly as unverifiable and confirm it before outreach. Don't reject on missing dates alone (see the "reject if X is not stated" trap above). Missing dates on past roles lower your confidence.
 
 ## Real Seniority vs. Title
 
@@ -80,18 +80,18 @@ Positive: product companies, modern stack, real career progression, hands-on own
 ## Patterns That Fooled Us
 
 - **Long-term solo freelancer.** Years of "Freelance Developer" or a one-person consultancy, judged only on a skills list, is a NO GO unless the profile shows real clients, real products, and a team-scale environment.
-- **Israeli army service counts as half.** Unit 8200, Mamram and similar units are real experience, but count those years at half weight when checking years of experience. Don't drop them, and don't count them as full industry years.
+- **Israeli army service: judge the work, not the unit.** Our default: relevant technical army work (8200, Mamram and similar) counts at half weight when checking years of experience. Unit membership alone proves nothing; read what the person actually did. Some roles count relevant army work fully, so agree it with the client.
 - **Company tenure vs. years of experience.** "8 years at Company X" can be a whole career path across several roles, or 8 flat years in one job. Read the roles under the company before you judge either way.
-- **8+ years at one employer with no visible change of scope** usually means the person is not moving, whatever the company size.
-- **A thin profile at a must-have company is not an automatic NO GO.** If the title is exactly right at exactly the right company, a short profile is a reason to look closer, not to reject.
+- **8+ years at one employer with no visible change of scope.** Some clients read this as "settled, not likely to move" or "narrow experience". Check progression across roles, and ask the client whether it matters for this search.
+- **A thin profile at a must-have company is not an automatic NO GO.** If the title is exactly right at exactly the right company, a short profile is a reason to get the full profile and look closer, not to reject.
 
 ## The Caliber Check — the last step before any GO
 
-Box-ticking can pass a profile that no senior recruiter would call. Before you write GO, ask one question: **would I put my name on this introduction to the hiring manager?** If the honest answer is "technically they match", it's a NO GO.
+Box-ticking can pass a profile that no senior recruiter would call. Before you write GO, ask one question: **would I put my name on this introduction to the hiring manager?** If you hesitate, name the requirement and the evidence behind the concern. A concern you can tie to the role is a reason for NO GO; an unexplained feeling is not.
 
-## A Second Pass on Every GO
+## A Second Check on GOs
 
-AI screeners lean lenient. They find reasons to say yes. When the cost of a bad outreach is real, run a second, stricter pass on every GO (a stronger model, or a fresh session told "find the reason this person is wrong for the role"). Keep the GO only if it survives. You don't need a second pass on NO GOs.
+In our experience, AI screening tends to be generous: it finds reasons to say yes. When the cost of a bad outreach is real (a client sees every candidate), check every GO again, independently, against the agreed requirements (a stronger model, or a fresh session). Report supporting evidence, contradictions and missing information. Also re-check a small sample of NO GOs, because a bad rule rejects good people too.
 
 ## Decision Standard
 
@@ -144,7 +144,7 @@ Normalize common aliases before judging a skills match:
 - JavaScript = JS = ECMAScript
 - Microservices = Micro-services = SOA
 - Machine Learning = ML; Artificial Intelligence = AI; Natural Language Processing = NLP; Computer Vision = CV
-- Kubernetes = K8s; Terraform = IaC / Infrastructure as Code
+- Kubernetes = K8s; Terraform is one IaC (Infrastructure as Code) tool: related to other IaC tools, not the same
 - LLM(s) = Large Language Model(s) = Foundation Models
 - Generative AI = GenAI = Gen AI
 - RAG = Retrieval-Augmented Generation

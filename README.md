@@ -6,7 +6,7 @@
 
 **Six Claude Code skills that turn a job description into a working sourcing pipeline.**
 
-Built and used daily by a recruitment sourcing team in Israel.
+Based on the method a recruitment sourcing team in Israel uses every day.
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Built for Claude Code](https://img.shields.io/badge/built%20for-Claude%20Code-CC785C)](https://claude.com/claude-code)
@@ -73,7 +73,7 @@ Four more months of running these skills on live searches, and what we learned t
 
 - **Search:** every round runs six angles (current title, past title, past employer, best companies with any title, keywords without the title, whole market). A market is not dry until all six have run.
 - **Titles:** specific 2-4 word phrases in every spelling, plus a noise test, instead of bare words like "Engineer".
-- **Screening:** calibrate on real profiles first, watch for "reject if X is not stated" rules that reject everyone, and run a stricter second pass on every GO.
+- **Screening:** calibrate on real profiles first, watch for "reject if X is not stated" rules that reject everyone, and check every GO a second time, independently.
 - **Outreach:** react or ask, never recite the CV; never negative; show 3 examples before writing 50.
 - **Companies:** start from the client's own list, identify companies by URL not by name.
 - **Feedback loop:** every hiring-manager rejection becomes a written rule.

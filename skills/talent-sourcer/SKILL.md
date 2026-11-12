@@ -61,7 +61,7 @@ Titles for the same function vary a lot between companies. Use this as a startin
 
 ## Step 3: Write the Boolean Strings
 
-Aim for around 10 distinct search angles per role, each targeting a different candidate persona, not 10 variations of the same search:
+Aim for around 12 distinct search strings per role, each targeting a different candidate persona, not 10 variations of the same search:
 
 - 2 strings for exact title matches (narrow)
 - 2 strings for broader title variations (medium)
@@ -69,6 +69,8 @@ Aim for around 10 distinct search angles per role, each targeting a different ca
 - 2 strings for domain- or industry-specific candidates (medium)
 - 1 string for passive candidates showing leadership signals without the title yet (broad)
 - 1 string for people currently at your target companies from the market research brief (narrow but high-signal)
+- 1 string for a strong title in a *past* role, whatever the current title is
+- 1 string for people who *used to* work at your target companies
 
 Use real boolean syntax — AND, OR, NOT, parentheses, "exact phrases" — and keep each string reasonably short (LinkedIn Sales Navigator and most tools have practical length limits, generally well under 500 characters).
 
@@ -76,7 +78,7 @@ Each string should come with the filters that go with it: title, location, indus
 
 ## Write Title Phrases That Catch Everyone and Nothing Else
 
-Most search tools match titles by "contains". Use that, don't fight it.
+First check how your tool matches titles. Many tools (and LinkedIn, when you put the phrase in quotation marks) match a phrase anywhere inside the title. Test a few phrases and look at the results before you trust them.
 
 - **Never use a bare generic word** like "Engineer", "Developer", "Manager", "Lead" or "Analyst" as a title filter. "Engineer" catches Sales Engineer, Solutions Engineer and Field Engineer too.
 - **Use the tightest phrase that can only mean this role.** "Backend Engineer", "Full Stack", "Product Manager". With contains-matching, "Full Stack" also catches Senior Full Stack Developer, Full Stack Tech Lead and Full Stack Web Developer. You don't need to list seniority prefixes; they come free.
@@ -86,7 +88,7 @@ Most search tools match titles by "contains". Use that, don't fight it.
 
 ## Keywords Go Across Every Text Field, Not the Title
 
-A keyword search on the title alone returns noise and misses the best people. Spread each keyword across the headline, the summary, the skills list, and the current AND past role descriptions. Many strong people have a plain title ("Software Engineer", "Architect") and the real signal sits in what they wrote about their work.
+A keyword search on the title alone returns noise and misses the best people. If your tool lets you choose fields, spread each keyword across the headline, the summary, the skills list, and the current AND past role descriptions. Many strong people have a plain title ("Software Engineer", "Architect") and the real signal sits in what they wrote about their work.
 
 ## Every Search Round Runs Six Angles
 
@@ -101,7 +103,7 @@ The tiers above say how tight a search is. The angles below say *where* you look
 
 **Never call a market "dry" or "used up" until all six angles have run.** One empty angle says that angle is empty, nothing more. An angle that gives zero new people two rounds in a row may be skipped next round, with that as the written reason.
 
-**Exclude the people you already saw.** Most tools return the same top results every time unless you exclude profiles you already reviewed. Keep a list and pass it on every search.
+**Exclude the people you already saw.** Most tools return the same top results every time unless you exclude profiles you already reviewed. Use your tool's own filter for this ("hide profiles already viewed", "exclude people already in a project"), or keep a list and exclude it on every search.
 
 ## Role-Specific Rules Stay With the Role
 
