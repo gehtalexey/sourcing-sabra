@@ -57,10 +57,10 @@ These are plain instruction files in the open Agent Skills format (a folder with
 
 | Where your agent runs | How to give it the skills |
 |---|---|
-| Claude Code or the Claude Agent SDK | Copy the folders into `~/.claude/skills/` (or the project's `.claude/skills/`). The agent loads the right skill by itself. |
-| Claude (web or desktop chat) | Zip one skill folder and upload it under the Skills settings. |
-| ChatGPT | Skills, then Create, then Upload from your computer. |
-| n8n, Make, or any LLM step | Put the `SKILL.md` text in the system prompt of the step that screens, or fetch it live from `https://raw.githubusercontent.com/gehtalexey/sourcing-sabra/main/skills/<skill-name>/SKILL.md` so your agent always gets the latest version. |
+| Claude Code or the Claude Agent SDK | Copy the folders into `~/.claude/skills/` (or the project's `.claude/skills/`). Claude Code loads the right skill by itself; in the Agent SDK, switch skills on in its settings first. |
+| Claude (web or desktop chat) | Turn on code execution, zip one skill folder, then Customize → Skills → + Create skill → Upload a skill. |
+| ChatGPT (Business, Enterprise and Edu workspaces, if the admin allows it) | Skills → Create → Upload from your computer. |
+| n8n, Make, or any LLM step | Paste the `SKILL.md` text into the system prompt of the step that screens (the safe default). Or fetch it from GitHub. Pin a version you have tested (a commit link, not `main`), so an update never changes your agent's decisions without you knowing. |
 
 A good pairing: `candidate-screener` + `israeli-tech-market` on the step that judges profiles, `outreach-writer` + `israeli-tech-market` on the step that writes the first message.
 
